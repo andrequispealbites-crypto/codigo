@@ -8,7 +8,7 @@ public class HomeController extends Controller
 	private HomeView homeView;
 
 	private EventListController eventListController = new EventListController();
-	private NewEventController newEventController = new NewEventController(eventListController); // 🔥 AGREGADO
+	private NewEventController newEventController = new NewEventController(eventListController); //
 	private RegistrarInvitadoController invitadoController = new RegistrarInvitadoController();
 
 	private EliminarEventoController eliminarController;
